@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVTN - Log-in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <img src="/img/Logo_BVTN.png" alt="Logo" class="logo">
+                <h2>Đăng Nhập</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Tên đăng nhập</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Mật khẩu</label>
+                </div>
+                <div class="remember">
+                    <label> <input type="checkbox"> Lưu đăng nhập</label>
+                </div>
+                <button type="submit">Đăng Nhập</button>
+                <div class="signUp-link">
+                    <p>Quên Mật Khẩu? <a href="#" class="signUpBtn-link">Xác Nhận Lại Email</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <img src="/img/Logo_BVTN.png" alt="Logo" class="logo">
+                <h2>Xác Nhận Lại Email</h2>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <button type="submit">Xác Nhận</button>
+                <div class="signUp-link">
+                    <p><a href="#" class="signInBtn-link">Quay Lại</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
